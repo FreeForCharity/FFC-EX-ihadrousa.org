@@ -30,7 +30,8 @@ describe('TheFreeForCharityTeam component', () => {
     render(<TheFreeForCharityTeam />)
     for (const member of team) {
       expect(screen.getByText(member.name)).toBeInTheDocument()
-      expect(screen.getByText(member.role)).toBeInTheDocument()
+      // Several members can share a role (e.g. "Board Member").
+      expect(screen.getAllByText(member.role).length).toBeGreaterThan(0)
     }
   })
 
