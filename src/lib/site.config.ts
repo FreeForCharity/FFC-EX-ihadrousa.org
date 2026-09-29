@@ -203,8 +203,8 @@ export const siteConfig: SiteConfig = {
   volunteerUrl: '',
   description:
     'The International Humanitarian Aid & Disaster Relief Organization (IHADRO) provides disaster relief, hunger relief, basic first aid, temporary sheltering, debris removal and clothing assistance at no cost to the receiver.',
-  shortDescription:
-    'To be a responder to individuals, organizations and nations in times of need; delivering humanitarian and disaster aid on a national and international scale at no cost to the receiver.',
+  // Short enough for the 1200x630 social card under the long name.
+  shortDescription: 'Humanitarian and disaster aid at no cost to the receiver.',
   // No custom domain yet (public/CNAME absent), so the site is served from
   // the GitHub Pages project URL. Switch to https://ihadrousa.org at DNS cutover.
   url: 'https://freeforcharity.github.io',
