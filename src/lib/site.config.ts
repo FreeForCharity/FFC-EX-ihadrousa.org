@@ -221,7 +221,7 @@ export const siteConfig: SiteConfig = {
   vulnerabilityDisclosurePath: '/vulnerability-disclosure-policy',
   social: [{ label: 'Facebook', href: 'https://www.facebook.com/IHADRO' }],
   ein: '',
-  phone: { display: '520-220-0092', tel: '15202200092' },
+  phone: { display: '520-220-0092', tel: '5202200092' },
   addresses: [],
   taxStatusLabel: 'a US 501c3 Non Profit',
   guidestar: {
